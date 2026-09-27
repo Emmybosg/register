@@ -1,0 +1,17 @@
+{
+  "subdomain": "morrowandink",
+  "domain": "thedev.me",
+  "email_or_discord": "emmanuel.henryhenri@gmail.com",
+  "github_username": "Emmyboss",
+  "description": "Email hosting for morrowandink via Mailbux",
+  "records": {
+    "MX": [
+      "my.mailbux.com"
+    ],
+    "TXT": [
+      "v=spf1 include:msg25.com ~all",
+      "v=DMARC1; p=quarantine; rua=mailto:emmanuel.henryhenri@gmail.com; pct=100"
+    ]
+  },
+  "proxied": false
+}
